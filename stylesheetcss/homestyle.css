@@ -1,7 +1,49 @@
 body {
-    background-image: url(../photos/background1.png);
+    background-image: url(../photos/background.png);
+    background-size: 100%;
+    
 }
 
-h1 {
-    text-align: center;
+.greetingsline {
+    float: left;
+    width: 200px;
+    height: 70px;
+}
+
+#logo {
+    color:goldenrod;
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    float: left;
+    margin: 5px;
+    padding: 10px;
+}
+
+.menu {
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul {
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li {
+    list-style: none;
+    margin-top: 5px;
+    margin-left: 50px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    font-size: 25px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: goldenrod;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }

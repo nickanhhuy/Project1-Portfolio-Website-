@@ -1,49 +1,104 @@
-body {
-    background-image: url(../photos/background.png);
-    background-size: 100%;
-    
+*{
+    margin: 0;
+    padding: 0;
 }
 
-.greetingsline {
-    float: left;
-    width: 200px;
-    height: 70px;
+.main {
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%),url(../photos/background.png);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar {
+    width: 85%;
+    margin: auto;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
 }
 
 #logo {
     color:goldenrod;
     font-size: 35px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    float: left;
-    margin: 5px;
-    padding: 10px;
+    width: 120px;
+    cursor: pointer;
+    
+}
+.navbar ul {
+    margin-left: 100px;
 }
 
-.menu {
-    width: 400px;
-    float: left;
-    height: 70px;
-}
-
-ul {
-    float: left;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-ul li {
+.navbar ul li{
     list-style: none;
-    margin-top: 5px;
-    margin-left: 50px;
-    padding-bottom: 5px;
-    padding-left: 20px;
+    display: inline-block;
+    margin: 10px 25px;
     font-size: 25px;
+    position: relative;
 }
-
-ul li a {
+.navbar ul li a {
     text-decoration: none;
     color: goldenrod;
     font-weight: bold;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+.navbar ul li::after {
+    content: '';
+    height: 4px;
+    width: 0;
+    background: goldenrod;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.navbar ul li:hover::after{
+    width: 100%;
+}
+
+#btn {
+    background-color: chocolate;
+    color: black;
+    font-weight: bold;
+    width: 200px;
+    height: 70px;
+    border: 2px solid chocolate;
+    border-radius: 20px;
+    margin: 2px 10px;
+}
+
+.welcome {
+    width: 100%;
+    position: absolute;
+    top: 200px;
+    text-align: center;
+    color: rgb(255, 215, 114);
+    
+
+}
+
+.welcome h1 {
+    margin-top: 10px ;
+    padding-bottom: 20px;
+    text-transform: uppercase ;
+}
+
+.welcome p {
+    padding-bottom: 30px;
+}
+button {
+    border-radius: 20px;
+    border: 2px solid rgb(207, 168, 68);
+    color: black;
+    background-color: rgb(207, 168, 68);
+    font-weight: bold;
+    width: 150px;
+    height: 50px;
+}
+
+
+

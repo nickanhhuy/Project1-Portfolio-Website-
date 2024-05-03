@@ -77,8 +77,6 @@
     top: 200px;
     text-align: center;
     color: rgb(255, 215, 114);
-    
-
 }
 
 .welcome h1 {
@@ -90,7 +88,8 @@
 .welcome p {
     padding-bottom: 30px;
 }
-button {
+
+#button2 {
     border-radius: 20px;
     border: 2px solid rgb(207, 168, 68);
     color: black;
@@ -98,7 +97,31 @@ button {
     font-weight: bold;
     width: 150px;
     height: 50px;
+    transition: 0.3s ease;
 }
+
+#button2:hover {
+    transform: scale(1.2);
+}
+
+.images {
+    width: 100%;
+    position: absolute;
+    top: 420px;
+    text-align: center;
+}
+
+.images img {
+    margin: 20px;
+    border-radius: 10px;
+    transition: 0.3s ease;
+}
+.images img:hover {
+    transform: scale(1.2); 
+   
+}
+
+
 
 
 

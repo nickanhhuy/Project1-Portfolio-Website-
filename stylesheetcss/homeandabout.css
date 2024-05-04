@@ -121,6 +121,45 @@
    
 }
 
+.aboutsection {
+    display: flex;
+}
+.about_content{
+    margin-left: 20px;
+    margin-top: 50px;
+    color: rgb(255, 215, 114);
+}
+
+.about_content h1{
+    padding-bottom: 15px;
+}
+
+.about_content p{
+    padding-bottom: 15px;
+    width: 700px;
+    font-size: 18px;
+}
+
+.about_content ul{
+    list-style: none;
+    font-size: 18px;
+}
+
+.about_images {
+    margin: 15px;
+    padding-left: 160px;
+}
+
+.about_images img{
+    border-radius: 10px;
+    margin: 5px;
+    transition: 0.5s ease;
+}
+.about_images img:hover{
+    transform: scale(1.1);
+}
+
+
 
 
 

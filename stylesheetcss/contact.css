@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%),url(../photos/background.png);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar {
+    width: 85%;
+    margin: auto;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo {
+    color:goldenrod;
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 120px;
+    cursor: pointer;
+    
+}
+.navbar ul {
+    margin-left: 100px;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 10px 25px;
+    font-size: 25px;
+    position: relative;
+}
+.navbar ul li a {
+    text-decoration: none;
+    color: goldenrod;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar ul li::after {
+    content: '';
+    height: 4px;
+    width: 0;
+    background: goldenrod;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.navbar ul li:hover::after{
+    width: 100%;
+}
+
+#btn {
+    background-color: chocolate;
+    color: black;
+    font-weight: bold;
+    width: 200px;
+    height: 70px;
+    border: 2px solid chocolate;
+    border-radius: 20px;
+    margin: 2px 10px;
+}
+
+.infocontact h2{
+    top: 200px;
+    text-align: center;
+    color: rgb(255, 215, 114);
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+.infocontact .contact {
+    color:rgb(255, 215, 114) ;
+    font-size: 25px;
+    text-align: center;
+    margin-top:50px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 70px 50px;
+    background-color:rgba(44, 146, 146, 0.575);
+    height: auto;
+}
+
+.infocontact .contact #address {
+    margin:20px;
+}
+
+.infocontact .contact #phone {
+    margin:20px;
+}
+
+.infocontact .contact #email {
+    margin:20px;
+}

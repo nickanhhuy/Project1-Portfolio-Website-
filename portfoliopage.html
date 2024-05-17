@@ -24,33 +24,50 @@
             <div class="portfoliosection">
                 <div class="firstline">
                     <section class="saigon">
-                        <button>Sai Gon</button>
+                        <button onclick="linktosaigon()">Sai Gon</button>
                         <img src="./photos/hcm.jpg">
                     </section>
 
                     <section class="hanoi">
-                        <button>Ha Noi</button>
+                        <button onclick="linktohanoi()">Ha Noi</button>
                         <img src="./photos/hanoi.jpg">
                     </section>
                 
                     <section class="danang">
-                        <button>Da Nang</button>
+                        <button onclick="linktodanang()">Da Nang</button>
                         <img src="./photos/danang.jpg">
                     </section>
                 </div>
 
                 <div class="secondline">
                     <section class="hoian">
-                        <button>Hoi An</button>
+                        <button onclick="linktohoian()">Hoi An</button>
                         <img src="./photos/hoian.jpg">
                     </section>
 
                     <section class="halongbay">
-                        <button>Ha Long Bay</button>
+                        <button onclick="linktohalongbay()">Ha Long Bay</button>
                         <img src="./photos/halongbay.jpg">
                     </section>
                 </div>
             </div>
         </div>
     </body> 
+    <script>
+        function linktosaigon() {
+            window.location.href = 'saigon.html';
+        }
+        function linktohanoi() {
+            window.location.href = 'hanoi.html';
+        }
+        function linktodanang() {
+            window.location.href = 'danang.html';
+        }
+        function linktohoian() {
+            window.location.href = 'hoian.html';
+        }
+        function linktohalongbay() {
+            window.location.href = 'halongbay.html';
+        }
+    </script>
 </html>

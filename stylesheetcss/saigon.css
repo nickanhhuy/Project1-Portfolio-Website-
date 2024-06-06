@@ -1,0 +1,63 @@
+body {
+    background-color: rgb(180, 137, 81);
+}
+button{
+    width: 200px; 
+    height: 50px; 
+    margin: 10px 0px;
+    border-radius: 10px; 
+    border-color: chocolate; 
+    background-color: chocolate;
+    font-size: medium;
+    font-weight: bold;
+}
+.hochiminhbackground{
+    background-image: url("../photos/hochiminhbackground.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 500px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.hochiminhbackground h3{
+    text-align: center;
+    color: rgb(255, 205, 139);
+    font-size: 100px;
+    
+}
+
+.hochiminhstatue {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 400px;
+    font-size: 15px;
+}
+
+.hcmactivity{
+    margin: 10px 400px;
+    justify-content: center;
+    align-items: center;   
+}
+
+.hcmactivity h2{
+    text-align: center;
+    font-size: 25px;
+    font-style: italic
+}
+.hcmactivity ul {
+    list-style-type: none;    
+}
+.hcmactivity ul li {
+    font-size: 20px;
+    font-weight: bold;
+}
+.hcmactivity ul li p {
+    font-weight: normal;
+    font-size: 17px;
+    padding-left: 25px;
+}
